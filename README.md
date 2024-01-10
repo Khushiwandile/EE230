@@ -1,5 +1,3 @@
-# EE230
-
 \documentclass[12pt]{article}
 \usepackage{graphicx}
   
@@ -29,14 +27,14 @@ Aim: To analyze the time response characteristics of an RC low-pass filter circu
 \subsection{Design}
 
 {Part(a):\\
-Design a simple RC low-pass filter circuit and Used a square wave signal (V_{in1}) \ with:\\
-5 Vpp,\ 2 ms period,\ 2.5 V \ DC \ offset\\
+Designed a simple RC low-pass filter circuit and Used a square wave signal (V_{in1}) \ with:\\
+[5 Vpp,\ 2 ms period,\ 2.5 V \ DC \ offset]
 
 \begin{equation}
      \tau = R_{1} \times C_{1}
  \end{equation} \\
  Part(b):\\
-Calculate the bandwidth as the reciprocal of the time constant and measured the bandwidth on the oscilloscope.\\
+Calculated the bandwidth as the reciprocal of the time constant and measured the bandwidth on the oscilloscope.\\
 
 \begin{equation}
 \text{Bandwidth (BW)} = \frac{1}{2\pi\tau} \label{eq:bandwidth}
@@ -214,11 +212,11 @@ Design: Use Vdd = +15V, Vss = -15V, and 1KΩ resistors
 
 \subsubsection{Simulation results}
 
-This plot illustrates the designed RC low-pass filter's behavior. It shows how the output amplitude changes across a range of input frequencies from 5 Hz to 1 MHz. As expected, higher frequencies are attenuated, confirming the filter's low-pass nature. The -3 dB cutoff point indicates the frequency where the output starts to decrease significantly.
+\textbf{SINE WALE SIMUS}
 
 
 \subsection{Experimental results}
-{Expected and Measure values for voltages across R2 and R3\\
+{Expected and Measured values for voltages across R2 and R3\\
 \begin{table}[!hbt]
 		% Center the table
 		\begin{center}
